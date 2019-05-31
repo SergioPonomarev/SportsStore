@@ -2,6 +2,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.backToSiteButton {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 1em;
+    display: inline-block;
+}
+
 h1 {
     padding: .5em;
     padding-top: 0;

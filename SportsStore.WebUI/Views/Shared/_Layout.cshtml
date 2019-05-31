@@ -11,6 +11,9 @@
     <div id="header">
         @{ Html.RenderAction("Summary", "Cart"); }
         <div class="title">SPORTS STORE</div>
+        <div class="adminModeWrapper">
+            @Html.ActionLink("Administration", "Index", "Admin", null, new { @class = "adminModeButton" })
+        </div>
     </div>
     <div id="categories">
         @{ Html.RenderAction("Menu", "Nav"); }

@@ -13,6 +13,10 @@
         {
             <div class="Message">@TempData["message"]</div>
         }
+
+        <div class="backToSiteWrapper">
+            @Html.ActionLink("Back to Store", "List", "Product", null, new { @class = "backToSiteButton" })
+        </div>
         @RenderBody()
     </div>
 

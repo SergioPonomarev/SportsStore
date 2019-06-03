@@ -27,6 +27,7 @@ namespace SportsStore.WebUI.Controllers
                 ReturnUrl = returnUrl
             });
         }
+
         public RedirectToRouteResult AddToCart(Cart cart, int productId, string returnUrl)
         {
             Product product = repository.Products
